@@ -1,0 +1,23 @@
+{
+  "name": "lomotech/laravel-jajahan",
+  "description": "Jajahan",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Muhammad Syafiq Zainuddin",
+      "email": "syafiq@lomo.tech"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/database"
+    ],
+    "psr-4": {
+      "CleaniqueCoders\\Colonies\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support" : "^5.5",
+    "illuminate/database" : "^5.5"
+  }
+}
